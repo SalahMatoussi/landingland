@@ -1,0 +1,625 @@
+// Place all the styles related to the Pages controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+
+/*
+******************************
+
+Partie head !
+
+******************************
+
+*/
+
+.head
+
+{
+	display:flex;
+	flex-direction:column;
+	background-color:#7494BD;
+}
+
+.navbar
+
+{	margin:auto;
+	display:flex;
+	position:absolute;
+	right:0px;
+
+	
+
+}
+
+.navbar span
+
+{
+	padding:8px;
+}
+
+.banner
+
+{
+	display:flex;
+	padding:8px;
+	width:100%;
+	justify-content:space-between;
+}
+
+.logs
+
+{margin:auto;}
+
+
+.headbanner
+
+{
+	display:flex;
+	margin:auto;
+}
+
+.headbanner span
+
+{
+	padding:8px;
+}
+
+.pagedemo
+{
+	height:550px;
+	width:550px;
+	float:right;
+}
+
+.headbody
+
+{display:flex;}
+
+
+/*
+******************************
+
+Partie Clients !
+
+******************************
+
+*/
+
+
+
+.clients
+{
+	display:flex;
+	flex-direction: column;
+	justify-content:center;
+	align-items:center;
+	padding:40px;
+	border-top:solid 1px grey;
+}
+
+.clients span
+
+{
+	font-size:1.65em;
+	font-weight:bold;
+	margin-bottom:60px;
+}
+
+.clientlogos
+{
+	max-width:60%;
+	height:auto;
+	margin-left:20%;
+	margin-top:40px;
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+******************************
+
+Partie background!
+
+******************************
+
+*/
+
+.background
+
+{
+	display:flex;
+	flex-direction:column;
+	justify-content:center;
+	align-items:center;
+	background-color:#F6F9FB;
+	height:660px;
+	border-bottom: solid 1px grey;
+	border-top: solid 1px grey;
+
+}
+
+#backgroundtitle
+
+{
+	font-size:1.65em;
+	font-weight:bold;
+	margin-bottom:60px;
+
+}
+
+
+.backgroundband1
+
+{
+	display:flex;
+	justify-content: space-around;
+	width:80%;
+}
+
+
+.backgroundband2
+
+{
+	margin-top:40px;
+	display:flex;
+	justify-content: space-around;
+	width:60%;
+}
+
+.backimage
+{
+	height:60px;
+	width:60px;
+}
+
+.backbandtitle
+
+{
+	font-size:1.1em;
+	font-weight:bold;
+
+}
+
+.backbox
+
+{
+	height:200px;
+	width:264px;
+}
+
+
+.backbox div
+
+{
+	padding:6px;
+}
+
+
+.backboxtxt
+
+{
+	color:#808080;
+}
+
+
+/*
+******************************
+
+Partie features !
+
+******************************
+
+*/
+
+
+features
+{
+	margin-top:160px;
+	}
+#featitre
+{
+	margin-top:40px;
+	font-weight:bold;
+	margin-bottom:40px;
+	display:flex;
+	font-size:1.95em;
+}
+
+
+#featitre span
+
+{
+	margin:auto;
+}
+
+.featbloc
+
+{
+	display:flex;
+	flex-wrap: wrap;
+	margin:auto;
+	max-width:1000px;
+
+}
+
+
+
+.featimage
+{
+	height:167px;
+	width:233px;
+	heigth:auto;
+	max-width:100%;
+	margin:2px;
+	
+}
+
+
+
+/*
+******************************
+
+Partie Class !
+
+******************************
+
+*/
+
+.recos
+{
+	margin-top:60px;
+	display:flex;
+	flex-direction:column;
+	background-color:#F6F9FB;
+}
+
+#recotitle
+{
+	margin:auto;
+	font-weight:bold;
+	font-size:1.8em;
+	margin-bottom:30px;
+}
+
+.bloc
+
+{
+	margin:auto;
+	border-bottom: 2px solid green;
+	border-right: 1px solid grey;
+	border-top: 1px solid grey;
+	border-left: 1px solid grey;
+	height:328px;
+	width:307px;
+	display:flex;
+	flex-direction:column;
+	
+}
+
+
+.blocs
+
+{
+display:flex;
+}
+
+
+.bloc div
+{
+	margin:auto;
+}
+
+
+.bloctitle
+{
+	font-weight:bold;
+	font-size:1.35em;
+	
+
+
+}
+
+
+.bloc li
+
+{
+	color:#808080;
+}
+
+.bloclink
+
+{
+	color:#6F95C3;
+	font-size:1.2em;
+}
+
+
+/*
+******************************
+
+Partie applicant !
+
+******************************
+
+*/
+
+
+.infos_applicants
+
+{
+display:flex;
+flex-direction:column;
+justify-content:space-between;
+border-top: solid 1px grey;
+padding-top:50px;
+
+
+	
+}
+
+#applicantitle
+
+{
+	margin:auto;
+	font-size:1.95em;
+	margin-bottom:40px;
+}
+
+.applicantent
+
+{
+	display:flex;
+	justify-content:space-between;
+	margin-bottom: 70px;
+
+
+
+	
+}
+
+.applicantent li
+{
+	color:#ACACAC;
+}
+
+.applicantleft
+
+{
+	margin-left:10%;
+	
+}
+
+.applicantright
+
+{
+max-width:30%;
+margin-right:10%;
+}
+
+
+#applicantportal
+
+{
+	color:#6F95C3;
+	font-size:1.2em;
+	margin-top:38px;
+}
+
+.applicantleft #title
+
+{
+	font-weight:bold;
+	font-size:1.1em;
+}
+
+
+.applicantrightxt
+{
+	color:#868686;
+	font-size:1.05em;
+	margin-bottom: 12px;
+}
+
+.photopeterd
+{
+	margin-top:14px;
+	height:30px;
+	width:30px;
+	max-width:100%;
+	height:auto;
+}
+
+.yes
+
+{display:flex;}
+#grubhubapplicant
+{
+	color:#808080;
+
+}
+
+.yesyes
+{
+	margin-top:17px;
+	margin-left:5px;
+}
+
+
+
+/*
+******************************
+
+Partie demo !
+
+******************************
+
+*/
+
+
+
+.demo
+{
+	display:flex;
+	justify-content:space-around;
+	background-color:#4C7AB4;
+
+}
+
+.demomiddle
+{
+	max-width:35%;
+	margin-top:43px;
+}
+
+#demotxt
+
+{
+	font-size:1.1em;
+	color:white;
+}
+
+
+#demotitle
+{
+	font-size:2em;
+	color:white;
+	margin-bottom:11px;
+}
+
+
+.capturecran
+{
+	heigth:248px;
+	width:256px;
+	max-width:100%;
+	height:auto;
+	
+}
+
+.button {
+    background-color: #152531; /* Blue */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top:73px;
+}
+
+#fleche
+{
+	color:yellow;
+}
+
+
+/* 
+*********************************
+
+Classe du bas
+
+*********************************
+
+*/
+
+.alllinks
+
+{
+	display:flex;
+	flex-direction:column;
+	background-color: #152532;
+	color:white;
+}
+
+.toplinks
+
+{
+	display:flex;
+	justify-content:space-between;
+
+}
+
+.linkcolumns
+
+{
+	display:flex;
+	flex-direction: column;
+	justify-content:space-between;
+	margin:8px;
+	padding:8px;
+
+
+	
+}
+
+.colum
+{
+	display:flex;
+	
+}
+
+.linktitle
+{
+	font-weight:bold;
+	color:#92A1B0;
+	border-bottom: solid 1px grey;
+}
+
+
+.linkcolumns span
+{
+	padding: 4px;
+}
+
+.bottomlinks
+
+{
+	display:flex;
+	justify-content:space-between;
+	margin-top:110px;
+
+}
+
+
+.imageacc
+{
+	height:63px;
+	width:108px;
+	max-width:100%;
+	height:auto;
+	
+}
+
+
+.bottomterms
+{
+	margin-bottom:20px;
+	margin-top:20px;
+	margin-left:15px;
+}
+
+.bottomterms span
+{
+	border-right: 1px solid grey;
+	padding:6px;
+	
+
+}
+
+#copyright
+
+{
+	margin-left:15px;
+}
